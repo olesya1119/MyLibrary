@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<ArrayOfPerson xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Person>
+    <Password>4556280AF8605A40B1D5DB67609F34AF7B21C7B567E471BB76D60613690E56A502E54EF09F5F7F5AD685AC2322502A9E1379D4C1D7D47E208B8E17E76FE91772</Password>
+    <Login>olesya</Login>
+    <FirstName>Олеся</FirstName>
+    <LastName>Бульчук</LastName>
+    <Pytronymic>Анатольевна</Pytronymic>
+    <Email>bulchuk.olesya@gmail.com</Email>
+    <Phone>88005553535</Phone>
+    <Adress>ул. Пушкина, Дом калатушкина</Adress>
+    <IdRole>1</IdRole>
+  </Person>
+  <Person>
+    <Password>00AF087BDA122862575CCCDDC60FD60440160EDE608408C1D2FDA972AD3FA5F2FCED45936444B90A651A8A31B63B7D947516A7C25077A88A9B1B8F8674BD65BD</Password>
+    <Login>pupok123</Login>
+    <FirstName>Вася</FirstName>
+    <LastName>Пупкин</LastName>
+    <Pytronymic>Пупкович</Pytronymic>
+    <Email>bultix81@gmail.com</Email>
+    <Phone>84545222506</Phone>
+    <Adress>ул. Красивая д. 4</Adress>
+    <IdRole>0</IdRole>
+  </Person>
+  <Person>
+    <Password>2509970EB5C528C0776BF21D642623675D664BD2A27AF05C971BEF41B7C2EC257B558587FB1A0F8867E7E22346EBDEC238F5F01182D0C5E0EE3FB4E5576BF41F</Password>
+    <Login>vitka45</Login>
+    <FirstName>Виталя</FirstName>
+    <LastName>Иванов</LastName>
+    <Pytronymic>Алексеевич</Pytronymic>
+    <Email>bultix81@gmail.com</Email>
+    <Phone>87564536752</Phone>
+    <Adress>улица</Adress>
+    <IdRole>0</IdRole>
+  </Person>
+</ArrayOfPerson>

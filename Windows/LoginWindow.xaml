@@ -1,0 +1,62 @@
+﻿<Window x:Class="MyLibrary.Windows.LoginWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:MyLibrary.Windows"
+        mc:Ignorable="d"
+        Height="450" Width="800">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition />
+            <RowDefinition />
+            <RowDefinition Height="0.5*"/>
+            <RowDefinition />
+            <RowDefinition  Height="0.5*" />
+            <RowDefinition/>
+            <RowDefinition />
+            <RowDefinition />
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+
+        <TextBlock Text="Логин" Grid.Row="1" Grid.Column="1" />
+        <TextBlock Text="Пароль" Grid.Row="3" Grid.Column="1"/>
+        <TextBlock Text="{Binding Path=Error, UpdateSourceTrigger=PropertyChanged, Mode=OneWay}" Grid.Row="5" Grid.ColumnSpan="3" Foreground="#FFB32821"  />
+
+        <TextBox Text="{Binding Path=Login, UpdateSourceTrigger=PropertyChanged, Mode=OneWayToSource}" Grid.Row="2" Grid.Column="1" />
+        <TextBox Text="{Binding Path=Password, UpdateSourceTrigger=PropertyChanged, Mode=OneWayToSource}" Grid.Row="4" Grid.Column="1"/>
+
+        <Button Content="Войти" Grid.Row="6" Grid.Column="1" Command="{Binding LoginCommand}" />
+
+    </Grid>
+
+
+    <Window.Resources>
+        <Style TargetType="Button">
+            <Setter Property="Foreground" Value="#FFBC7B77"/>
+            <Setter Property="Background" Value="#FFE2C1C2"/>
+            <Setter Property="FontSize" Value="22"/>
+            <Setter Property="FontFamily" Value="Segoe Print"/>
+        </Style >
+        <Style TargetType="TextBlock">
+            <Setter Property="Foreground" Value="#FFBC7B77"/>
+            <Setter Property="FontSize" Value="20"/>
+            <Setter Property="VerticalAlignment" Value="Center"/>
+            <Setter Property="HorizontalAlignment" Value="Center"/>
+            <Setter Property="FontFamily" Value="Segoe Print"/>
+        </Style>
+        <Style TargetType="Grid">
+            <Setter Property="Background" Value="#FFEFE0E1"/>
+        </Style>
+        <Style TargetType="TextBox">
+            <Setter Property="Foreground" Value="#88A795"/>
+            <Setter Property="Background" Value= "#FFDEE0DA"/>
+            <Setter Property="FontSize" Value="18"/>
+            <Setter Property="FontFamily" Value="Segoe Print"/>
+        </Style>
+    </Window.Resources>
+</Window>

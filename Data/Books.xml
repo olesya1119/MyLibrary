@@ -1,0 +1,83 @@
+<?xml version="1.0"?>
+<ArrayOfBook xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Book>
+    <ID>0</ID>
+    <Name>Евгений Онегин</Name>
+    <Autors>А. С. Пушкин</Autors>
+    <QuantityInLibrary>27</QuantityInLibrary>
+    <QuantityOfReaders>0</QuantityOfReaders>
+    <Tags>роман; классика</Tags>
+  </Book>
+  <Book>
+    <ID>1</ID>
+    <Name>Кавказский пленник</Name>
+    <Autors>А. С. Пушкин</Autors>
+    <QuantityInLibrary>21</QuantityInLibrary>
+    <QuantityOfReaders>0</QuantityOfReaders>
+    <Tags>поэма; классика</Tags>
+  </Book>
+  <Book>
+    <ID>2</ID>
+    <Name>Борис Годунов</Name>
+    <Autors>А. С. Пушкин</Autors>
+    <QuantityInLibrary>15</QuantityInLibrary>
+    <QuantityOfReaders>0</QuantityOfReaders>
+    <Tags>поэма; классика</Tags>
+  </Book>
+  <Book>
+    <ID>3</ID>
+    <Name>Господин Гексоген</Name>
+    <Autors>А. А. Проханов</Autors>
+    <QuantityInLibrary>45</QuantityInLibrary>
+    <QuantityOfReaders>0</QuantityOfReaders>
+    <Tags>роман; современное</Tags>
+  </Book>
+  <Book>
+    <ID>4</ID>
+    <Name>Чеченский блюз</Name>
+    <Autors>А. А. Проханов</Autors>
+    <QuantityInLibrary>47</QuantityInLibrary>
+    <QuantityOfReaders>0</QuantityOfReaders>
+    <Tags>роман; современное</Tags>
+  </Book>
+  <Book>
+    <ID>5</ID>
+    <Name>Идущие в ночи</Name>
+    <Autors>А. А. Проханов</Autors>
+    <QuantityInLibrary>60</QuantityInLibrary>
+    <QuantityOfReaders>0</QuantityOfReaders>
+    <Tags>приключения; проза; современное</Tags>
+  </Book>
+  <Book>
+    <ID>7</ID>
+    <Name>Анна Каренина</Name>
+    <Autors>Л. Н. Толстой</Autors>
+    <QuantityInLibrary>45</QuantityInLibrary>
+    <QuantityOfReaders>0</QuantityOfReaders>
+    <Tags>классика; роман</Tags>
+  </Book>
+  <Book>
+    <ID>8</ID>
+    <Name>Война и мир</Name>
+    <Autors>Л. Н. Толстой</Autors>
+    <QuantityInLibrary>2</QuantityInLibrary>
+    <QuantityOfReaders>0</QuantityOfReaders>
+    <Tags>война; история; роман</Tags>
+  </Book>
+  <Book>
+    <ID>9</ID>
+    <Name>Азазель</Name>
+    <Autors>Б. Акунин</Autors>
+    <QuantityInLibrary>34</QuantityInLibrary>
+    <QuantityOfReaders>0</QuantityOfReaders>
+    <Tags>современное</Tags>
+  </Book>
+  <Book>
+    <ID>10</ID>
+    <Name>Левиафан</Name>
+    <Autors>Б. Акунин</Autors>
+    <QuantityInLibrary>97</QuantityInLibrary>
+    <QuantityOfReaders>1</QuantityOfReaders>
+    <Tags>современное</Tags>
+  </Book>
+</ArrayOfBook>
